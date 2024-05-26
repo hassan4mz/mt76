@@ -87,11 +87,9 @@ static const struct ieee80211_channel mt76_channels_2ghz[] = {
 	CHAN2G(56, 2202),
 	CHAN2G(57, 2197),
 	CHAN2G(58, 2192),
-
 };
 
 static const struct ieee80211_channel mt76_channels_5ghz[] = {
-
 	CHAN5G(20, 5100),
 	CHAN5G(24, 5120),
 	CHAN5G(28, 5140),
@@ -224,7 +222,6 @@ static const struct ieee80211_channel mt76_channels_5ghz[] = {
 	CHAN5G(177, 5885),
 	CHAN5G(178, 5890),
 	CHAN5G(179, 5895),
-
 };
 
 static const struct ieee80211_channel mt76_channels_6ghz[] = {
@@ -323,8 +320,8 @@ struct ieee80211_rate mt76_rates[] = {
 EXPORT_SYMBOL_GPL(mt76_rates);
 
 static const struct cfg80211_sar_freq_ranges mt76_sar_freq_ranges[] = {
-	{ .start_freq = 2402, .end_freq = 2494, },
-	{ .start_freq = 5150, .end_freq = 5350, },
+	{ .start_freq = 2382, .end_freq = 2494, },
+	{ .start_freq = 4910, .end_freq = 6425, },
 	{ .start_freq = 5350, .end_freq = 5470, },
 	{ .start_freq = 5470, .end_freq = 5725, },
 	{ .start_freq = 5725, .end_freq = 5950, },
@@ -335,6 +332,7 @@ static const struct cfg80211_sar_freq_ranges mt76_sar_freq_ranges[] = {
 	{ .start_freq = 6705, .end_freq = 6865, },
 	{ .start_freq = 6865, .end_freq = 7125, },
 };
+
 
 static const struct cfg80211_sar_capa mt76_sar_capa = {
 	.type = NL80211_SAR_TYPE_POWER,
