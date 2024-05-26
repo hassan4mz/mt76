@@ -321,7 +321,9 @@ EXPORT_SYMBOL_GPL(mt76_rates);
 
 static const struct cfg80211_sar_freq_ranges mt76_sar_freq_ranges[] = {
 	{ .start_freq = 2382, .end_freq = 2494, },
+	{ .start_freq = 2402, .end_freq = 2494, },
 	{ .start_freq = 4910, .end_freq = 6425, },
+	{ .start_freq = 5150, .end_freq = 5350, },
 	{ .start_freq = 5350, .end_freq = 5470, },
 	{ .start_freq = 5470, .end_freq = 5725, },
 	{ .start_freq = 5725, .end_freq = 5950, },
