@@ -214,14 +214,6 @@ static const struct ieee80211_channel mt76_channels_5ghz[] = {
 	CHAN5G(177, 5885),
 	CHAN5G(178, 5890),
 	CHAN5G(179, 5895),
-	CHAN5G(172, 5860),
-	CHAN5G(173, 5865),
-	CHAN5G(174, 5870),
-	CHAN5G(175, 5875),
-	CHAN5G(176, 5880),
-	CHAN5G(177, 5885),
-	CHAN5G(178, 5890),
-	CHAN5G(179, 5895),
 };
 
 static const struct ieee80211_channel mt76_channels_6ghz[] = {
